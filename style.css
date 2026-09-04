@@ -219,6 +219,25 @@ footer > p:last-child {
   padding-top: 16px;
 }
 
+
+
+.card-links {
+  display: flex;
+  gap: 16px;
+  padding: 0 16px 0px;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-links {
+  margin-top: auto;
+}
+
 @media (max-width: 600px) {
   nav ul {
     gap: 12px;
